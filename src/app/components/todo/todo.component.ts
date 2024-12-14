@@ -19,7 +19,7 @@ export class TodoComponent implements OnInit {
   todoService = inject(TodoService)
 
   ngOnInit(): void {
-      
+      this.getTodo()
   }
 
   getTodo(){
